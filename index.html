@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat App</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="left-pane">
+            <div class="top-header">
+                <button class="new-chat-btn">New Chat</button>
+                <button class="hide-pane-btn">
+                    <img src="hide-icon.png" alt="Hide Icon">
+                </button>
+            </div>
+            <div class="chat-list">
+                <!-- Dummy chat items go here -->
+            </div>
+        <div class="profile-section">
+            <!-- Profile information goes here -->
+            <i class="fas fa-user-circle">👤 Upgrade to plus</i>
+            <p>Email:anujamali172@gmail.com</p>
+        </div>
+        </div>
+        <div class="right-pane">
+            <div class="floating-buttons">
+                <button class="floating-button">⚡️ GPT-3.5</button>
+                <button class="floating-button">✨ GPT-4 🔒</button>
+            </div>
+            <div class="message-display">
+                <!-- Messages will be displayed here -->
+                <p1 id="chatgpt-message"><div class="chatgpt-message">chatGpt</div></p1>
+            </div>
+            <div class="bottom-container">
+                <div class="four-boxes-section">
+                    <div class="row">
+                        <div class="box">
+                            <div class="box-content">
+                                <h2>Help me debug</h2>
+                                <p>a linked list problem</p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="box-content">
+                                <h2>Explain options trading</h2>
+                                <p>if i'm familiar with buying and selling stocks</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="box">
+                            <div class="box-content">
+                                <h2>Plan an itineray</h2>
+                                <p>to experience the wildlife in the Australian outback</p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="box-content">
+                                <h2>Tell me a fun fact</h2>
+                                <p>about the Roman Empire</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+              <div class="input-box">
+                 <input type="text" placeholder="Type your message...">
+                <button class="send-button"><i class="fas fa-paper-plane"></i>></button>
+                </div>
+            </div>
+    <script src="script.js"></script>
+</body>
+</html>

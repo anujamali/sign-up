@@ -1,0 +1,203 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color:rgb(73,69,69);; 
+    color: #fff; 
+}
+
+.container {
+    display: flex;
+}
+
+.left-pane {
+    width: 20%;
+    background-color:rgb(53, 52, 52); /* Dark background color */
+    padding: 20px;
+    height: 30px;
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.new-chat-btn {
+    width: 80%;
+    padding: 10px;
+    /*CHATGPT:4px 10px*/
+    background-color:white; /* Blue button color */
+    color:black;
+    /*CHATGPT:same*/
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    /*CHATGPT:same*/
+}
+.new-chat-btn:hover{
+    background-color:grey;
+}
+
+.hide-pane-btn {
+    width: 20%;
+    background:rgb(168, 166, 166);
+    border-radius:5px;
+    cursor: pointer;
+}
+
+.hide-pane-btn:hover{
+    background-color:grey;
+}
+.chat-list {
+    margin-top: 20px;
+}
+
+.chat-item {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+    color: #fff; /* Light text color */
+}
+.profile-section {
+ 
+    padding: 20px; /* Add padding for spacing */
+    background-color: #2d2d2e; /* Background color for the profile section */
+    color: #fff; /* Text color for the profile section */
+    text-align:left;
+    margin-top: 450px;
+    margin-right:40px;
+    width:350px;
+    
+}
+.profile-section:hover{
+    background-color:rgb(85, 83, 83);
+}
+
+.right-pane {
+    width:75%;
+    padding: 20px;
+    color:#fff;
+    background-color: grey;
+    
+
+}
+.floating-buttons {
+    display: flex;
+    justify-content:center; /* Place buttons at each end */
+    padding: 20px;
+    border:none; /* Add a grey border */
+    border-radius: 5px; /* Add rounded corners */
+    margin: 10px auto; /* Center the buttons horizontally with auto margin */
+    max-width: 300px; /* Set a maximum width for the buttons */
+    background-color:none; /* Background color for the buttons */
+}
+/* Style for each individual button */
+.floating-button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color:black; /* Blue button color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.floating-button:hover{
+    background-color:rgb(94, 93, 93);
+}
+
+.message-display {
+    height: 400px;
+    overflow-y: auto;
+    border:none;
+    margin-top: 20px;
+    padding: 30px;
+    background-color:grey;
+}
+
+.input-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:70px;
+    position: relative;
+    bottom: 0; /* Stick to the bottom */
+    background-color: grey; /* Dark background color */
+    padding: 10px;
+  
+}
+
+input[type="text"] {
+    flex-grow: 1; /* Allow input to grow */
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #333; /* Dark input field color */
+    color: #fff; /* Light text color */
+    margin-right:30px;
+    height: 20px;
+}
+
+.send-button {
+    padding: 15px 25px;
+    /*chatgpt:8px*/
+    background-color: #007bff; /*CHATGPT:white and grey */
+    color: #fff;
+    /*CHATGPT:blue*/
+    margin-right:30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    /*CHATGPT:default*/
+    font-size: 20px;
+    height:50px;
+}
+.input-box button {
+    padding: 10px 20px;
+    background-color: rgb(13, 73, 48);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 18px; /* Adjust the font size as needed */
+}
+P1{
+    text-align: center;
+    color:rgb(73, 70, 70);
+    font-weight: bold;
+    font-size: 60PX;
+    margin-right: 300PX;
+}
+
+.four-boxes-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: -270px; /* Adjust the negative margin to lift the section */
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    width: 150%;
+    max-width: 900px; /* Set a maximum width for the row */
+    margin-bottom: 10px;
+    height: 150px;
+}
+.box {
+  
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    position: relative;
+    margin-bottom: 50px;
+    width:400px;
+    height:90px;
+}
+
+.box:hover {
+    background-color: rgb(85, 84, 84);
+}
